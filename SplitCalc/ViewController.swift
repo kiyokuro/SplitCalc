@@ -44,6 +44,8 @@ class ViewController: UIViewController,UITextFieldDelegate, UIPickerViewDelegate
         }else{
             x2 = 1
         }
+        
+        //追加機能のとこと。なぜか動かない
         switch pickerVIew.selectedRowInComponent(0) {
         case 0:
             x1 / 1
@@ -62,6 +64,8 @@ class ViewController: UIViewController,UITextFieldDelegate, UIPickerViewDelegate
         
         let tmpAns = x1 / x2
         let amari = x1 % x2
+        
+        //追加機能のとこと。なぜか動かない
         switch pickerVIew.selectedRowInComponent(0) {
         case 0:
             tmpAns*1
